@@ -1,0 +1,184 @@
+/* HOME */
+.home__total-box {
+    width: 320px;
+    height: 180px;
+    background: #cacaca;
+    position: absolute;
+    top: 110px;
+    border-radius: 20px;
+    overflow: hidden;
+    /* position: relative; */
+}
+
+.home__total-box__total {
+    width: 100%;
+    height: 60%;
+    background: #787878;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: 900;
+    font-size: 3rem;
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home__total-box__cash {
+    width: 50%;
+    height: 40%;
+    /* background: green; */
+    position: absolute;
+    top: 60%;
+    left: 0px;
+    border-right: 1px solid #787878;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.home__total-box__card {
+    width: 50%;
+    height: 40%;
+    /* background: blue; */
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    border-left: 1px solid #787878;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.home__total-box__cash span,
+.home__total-box__card span {
+    width: 90%;
+    /* background: powderblue; */
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.home__wishlist {
+    width: 365px;
+    height: 180px;
+    background: #cacaca;
+    position: absolute;
+    top: 110px;
+    left: 370px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.home__wishlist__title-bar {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home__wishlist__title-bar__title {
+    width: 50%;
+    height: 100%;
+    font-size: 1.4rem;
+    font-weight: 900;
+    line-height: 30px;
+}
+
+.home__wishlist__list {
+    width: 100%;
+    height: 65%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.home__wishlist__list div {
+    width: 100%;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 10px;
+    background: #787878;
+    border-radius: 6px;
+}
+
+.home__wishlist__show-all {
+    width: 30%;
+    height: 15%;
+    background: #787878;
+    border-radius: 20px;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.home__money-movement {
+    width: 706px;
+    height: 250px;
+    background: #cacaca;
+    position: absolute;
+    top: 310px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.home__money-movement__title-bar {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home__money-movement__title-bar__title {
+    width: 50%;
+    height: 100%;
+    font-size: 1.4rem;
+    font-weight: 900;
+    line-height: 30px;
+}
+
+.home__money-movement__movements {
+    width: 100%;
+    height: 73%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.home__money-movement__movements div {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    background: #787878;
+    border-radius: 6px;
+}
+
+.home__money-movement__show-all {
+    width: 15%;
+    height: 12%;
+    background: #787878;
+    border-radius: 20px;
+    line-height: 26px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: underline;
+}
